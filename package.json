@@ -1,0 +1,63 @@
+{
+  "name": "random-py",
+  "version": "1.0.0",
+  "description": "Python-style random utilities for TypeScript/JavaScript with clean, intuitive API",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run test && npm run build",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "keywords": [
+    "random",
+    "python",
+    "utilities",
+    "typescript",
+    "randint",
+    "choice",
+    "sample",
+    "shuffle",
+    "gaussian",
+    "crypto",
+    "secure-random"
+  ],
+  "author": "Your Name ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/random-py.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/random-py/issues"
+  },
+  "homepage": "https://github.com/yourusername/random-py#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@vitest/coverage-v8": "^1.0.4",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
