@@ -1,5 +1,5 @@
 {
-  "name": "@void77man/ez-random",
+  "name": "simplified-random",
   "version": "1.0.0",
   "description": "Python-style random utilities for TypeScript/JavaScript with clean, intuitive API",
   "main": "./dist/index.js",
