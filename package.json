@@ -40,21 +40,21 @@
     "crypto",
     "secure-random"
   ],
-  "author": "Your Name ",
+  "author": "ome-ehsan",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/random-py.git"
+    "url": "https://github.com/ome-ehsan/simple-random.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/random-py/issues"
+    "url": "https://github.com/ome-ehsan/simple-random/issues"
   },
-  "homepage": "https://github.com/yourusername/random-py#readme",
+  "homepage": "https://github.com/ome-ehsan/simple-random#readme",
   "devDependencies": {
-    "@types/node": "^20.10.0",
+    "@types/node": "^20.19.26",
     "@vitest/coverage-v8": "^1.0.4",
     "tsup": "^8.0.1",
-    "typescript": "^5.3.3",
+    "typescript": "^5.9.3",
     "vitest": "^1.0.4"
   },
   "engines": {
