@@ -1,5 +1,5 @@
 {
-  "name": "random-py",
+  "name": "simple-random",
   "version": "1.0.0",
   "description": "Python-style random utilities for TypeScript/JavaScript with clean, intuitive API",
   "main": "./dist/index.js",
@@ -40,7 +40,7 @@
     "crypto",
     "secure-random"
   ],
-  "author": "ome-ehsan",
+  "author": "ome-ehsan voidcryptic01@gmail.com",
   "license": "MIT",
   "repository": {
     "type": "git",
