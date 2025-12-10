@@ -1,5 +1,5 @@
 {
-  "name": "simple-random",
+  "name": "ez-random",
   "version": "1.0.0",
   "description": "Python-style random utilities for TypeScript/JavaScript with clean, intuitive API",
   "main": "./dist/index.js",
@@ -45,12 +45,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ome-ehsan/simple-random.git"
+    "url": "https://github.com/ome-ehsan/ez-random.git"
   },
   "bugs": {
-    "url": "https://github.com/ome-ehsan/simple-random/issues"
+    "url": "https://github.com/ome-ehsan/ez-random/issues"
   },
-  "homepage": "https://github.com/ome-ehsan/simple-random#readme",
+  "homepage": "https://github.com/ome-ehsan/ez-random#readme",
   "devDependencies": {
     "@types/node": "^20.19.26",
     "@vitest/coverage-v8": "^1.0.4",
